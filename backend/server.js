@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://edviron-assignment.onrender.com', 
   }));
   
 app.use(express.json());
