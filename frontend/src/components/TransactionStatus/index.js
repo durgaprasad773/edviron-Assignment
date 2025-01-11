@@ -6,7 +6,7 @@ const TransactionStatus = () => {
   const [status, setStatus] = useState("");
 
   const fetchStatus = () => {
-    fetch(`http://localhost:5000/api/transactions/status/${orderId}`)
+    fetch(`https://edviron-assignment.onrender.com/api/transactions/status/${orderId}`)
       .then((res) => res.json())
       .then((data) => setStatus(data.status))
       .catch((err) => console.error("Error fetching transaction status:", err));
