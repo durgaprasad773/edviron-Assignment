@@ -1,0 +1,102 @@
+.update-transaction-status {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #2c3e50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.update-transaction-status h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+.update-transaction-status form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-transaction-status label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.update-transaction-status input,
+.update-transaction-status select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.update-transaction-status input:focus,
+.update-transaction-status select:focus {
+    border-color: #3498db;
+}
+
+.update-transaction-status button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-transaction-status button:hover {
+    background-color: #2980b9;
+}
+
+.update-transaction-status p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.update-transaction-status .message {
+    color: #27ae60;
+}
+
+.update-transaction-status .error {
+    color: #e74c3c;
+}
+
+body.dark-mode .update-transaction-status {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+body.dark-mode .update-transaction-status h2 {
+    color: #1abc9c;
+}
+
+body.dark-mode .update-transaction-status input,
+body.dark-mode .update-transaction-status select {
+    border: 1px solid #ecf0f1;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+body.dark-mode .update-transaction-status button {
+    background-color: #8e44ad;
+}
+
+body.dark-mode .update-transaction-status button:hover {
+    background-color: #732d91;
+}
+
+body.dark-mode .update-transaction-status .message {
+    color: #2ecc71;
+}
+
+body.dark-mode .update-transaction-status .error {
+    color: #e74c3c;
+}

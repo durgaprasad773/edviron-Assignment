@@ -1,0 +1,92 @@
+.school-transactions {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #2c3e50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.school-transactions h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+.school-transactions input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 60%;
+    transition: border-color 0.3s ease;
+}
+
+.school-transactions input:focus {
+    border-color: #3498db;
+}
+
+.school-transactions button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.school-transactions button:hover {
+    background-color: #2980b9;
+}
+
+.school-transactions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.school-transactions li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.school-transactions li:last-child {
+    border-bottom: none;
+}
+
+body.dark-mode .school-transactions {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+body.dark-mode .school-transactions h2 {
+    color: #1abc9c;
+}
+
+body.dark-mode .school-transactions input {
+    border: 1px solid #ecf0f1;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+body.dark-mode .school-transactions button {
+    background-color: #8e44ad;
+}
+
+body.dark-mode .school-transactions button:hover {
+    background-color: #732d91;
+}
+
+body.dark-mode .school-transactions li {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-bottom: 1px solid #7f8c8d;
+}
+
+body.dark-mode .school-transactions li:last-child {
+    border-bottom: none;
+}

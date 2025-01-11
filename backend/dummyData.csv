@@ -1,0 +1,4 @@
+collect_id,school_id,gateway,order_amount,transaction_amount,status,custom_order_id
+12345,school1,Gateway1,5000,4999,Success,ABC123
+12346,school2,Gateway2,10000,9995,Pending,ABC124
+12347,school3,Gateway3,15000,14990,Failed,ABC125
