@@ -11,7 +11,7 @@ import "./App.css";
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Check for the user's dark mode preference in localStorage when the app loads
+  // Check for the user's dark mode preference in localStorage when the app loads hello
   useEffect(() => {
     const savedMode = localStorage.getItem("darkMode");
     if (savedMode === "true") {
