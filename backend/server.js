@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://edviron-assignment.onrender.com', 
+    origin: 'https://edviron-assignment-123.onrender.com', 
   }));
   
 app.use(express.json());
