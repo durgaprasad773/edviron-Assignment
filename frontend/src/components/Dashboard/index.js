@@ -7,7 +7,7 @@ const Dashboard = () => {
 
  
   const fetchTransactions = () => {
-    fetch("http://localhost:5000/api/transactions")
+    fetch("https://edviron-assignment.onrender.com/api/transactions")
       .then((res) => res.json())
       .then((data) => setTransactions(data))
       .catch((err) => console.error("Error fetching transactions:", err));
