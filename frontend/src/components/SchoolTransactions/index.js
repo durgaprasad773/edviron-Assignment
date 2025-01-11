@@ -6,7 +6,7 @@ const SchoolTransactions = () => {
   const [transactions, setTransactions] = useState([]);
 
   const fetchTransactions = () => {
-    fetch(`http://localhost:5000/api/transactions/school/${schoolId}`)
+    fetch(`https://edviron-assignment.onrender.com/api/transactions/school/${schoolId}`)
       .then((res) => res.json())
       .then((data) => setTransactions(data))
       .catch((err) => console.error("Error fetching school transactions:", err));
